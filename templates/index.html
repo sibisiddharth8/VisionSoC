@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vision SoC</title>
+    <link rel="stylesheet" href="../static/css/index.css">
+</head>
+<body>
+    <h1>Vision SoC - an Image Upscaler</h1>
+    <form method="POST" enctype="multipart/form-data">
+        <input type="file" name="file">
+        <input type="submit" value="Upload">
+    </form>
+    {% if img_data %}
+        <h2>Output Image</h2>
+        <img class="opImg" src="data:image/jpeg;base64,{{ img_data }}" alt="Output Image">
+        <br>
+        <div class="download-button-holder">
+            <a href="download" download="output_image.jpg"><button class="download-button">Download Output Image</button></a>
+        </div>
+    {% endif %}
+</body>
+</html>
