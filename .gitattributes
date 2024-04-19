@@ -1,1 +1,1 @@
-*.pth filter=lfs diff=lfs merge=lfs -text
+RRDB_ESRGAN_x4.pth filter=lfs diff=lfs merge=lfs -text
