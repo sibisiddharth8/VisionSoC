@@ -1,0 +1,15 @@
+Contributors
+Project Name: Vision SoC
+
+Praveenkumar S
+Role: Front-end Developer & Python Developer
+
+Praveenkumar S has been instrumental in shaping the user experience of Vision SoC. As a Front-end Developer, he meticulously crafted the user interface, ensuring it is both intuitive and visually appealing. His expertise in Python has also been vital, contributing to the development of the underlying algorithms and integrating them seamlessly with the front-end. Praveenkumar's dedication and innovative approach have significantly enhanced the functionality and user engagement of Vision SoC.
+
+Sibi Siddharth S
+Role: Front-end Developer & Python Developer
+
+Sibi Siddharth S played a crucial role in the development of Vision SoC, bringing his dual expertise in Front-end Development and Python. His keen eye for design and detail has ensured a smooth and aesthetically pleasing user interface. Additionally, Sibi's proficiency in Python has been essential in developing the backend processes and algorithms, ensuring they perform efficiently and effectively. His contributions have been pivotal in delivering a cohesive and high-performing project.
+
+The collaboration between Praveenkumar S and Sibi Siddharth S has been a driving force behind the success of Vision SoC, combining their skills to create a robust and user-friendly solution.
+
