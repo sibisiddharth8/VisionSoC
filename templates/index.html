@@ -3,22 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vision SoC</title>
+    <title>Vision SoC - Image Upscaler</title>
     <link rel="stylesheet" href="../static/css/index.css">
 </head>
 <body>
-    <h1>Vision SoC - an Image Upscaler</h1>
-    <form method="POST" enctype="multipart/form-data">
-        <input type="file" name="file">
-        <input type="submit" value="Upload">
-    </form>
-    {% if img_data %}
-        <h2>Output Image</h2>
-        <img class="opImg" src="data:image/jpeg;base64,{{ img_data }}" alt="Output Image">
-        <br>
-        <div class="download-button-holder">
-            <a href="download" download="output_image.jpg"><button class="download-button">Download Output Image</button></a>
+    <header>
+        <div class="container">
+            <h1>🌟 Vision SoC</h1>
+            <p>AI-Powered Image Upscaler for Stunning Results</p>
         </div>
-    {% endif %}
+    </header>
+    <main>
+        <div class="card upload-card">
+            <h2>Upload Your Image</h2>
+            <form method="POST" enctype="multipart/form-data" class="upload-form">
+                <div class="form-group">
+                    <input type="file" name="file" id="file-input" required>
+                </div>
+                <button type="submit" class="btn-upload">Upscale Now</button>
+            </form>
+        </div>
+
+        {% if img_data %}
+        <div class="card output-card">
+            <h2>Upscaled Image</h2>
+            <div class="image-preview">
+                <img class="opImg" src="data:image/jpeg;base64,{{ img_data }}" alt="Upscaled Image">
+            </div>
+            <a href="download" class="btn-download" download="output_image.jpg">Download Image</a>
+        </div>
+        {% endif %}
+    </main>
+    <footer>
+        <p>© 2024 Vision SoC.</p>
+    </footer>
 </body>
 </html>
