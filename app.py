@@ -8,6 +8,7 @@ import base64
 import io
 
 app = Flask(__name__)
+port = int(os.environ.get("PORT", 5000)) 
 
 model_path = 'RRDB_ESRGAN_x4.pth' 
 device = torch.device('cpu')
